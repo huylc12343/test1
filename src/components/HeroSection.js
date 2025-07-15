@@ -1,8 +1,7 @@
 import React from 'react';
 import bg from '../assets/PWM01219.jpg';       // ảnh nền mờ phía sau
 import rightImg from '../assets/PWM01219.jpg'; // ảnh bên phải
-import Cas from './cas'; // logo hoặc component SVG
-
+import CasIcon from '../assets/Cas.svg'; // Import the CAS icon
 const HeroSection = () => {
   return (
     <div className="relative w-full h-[600px] overflow-hidden">
@@ -22,7 +21,7 @@ const HeroSection = () => {
         <div className="w-3/5 text-left">
           <div className="flex items-center gap-4 mb-6">
             <h1 className="text-4xl font-bold">Về chúng tôi</h1>
-            <Cas />
+            <img src={CasIcon} alt="cas" className="w-20 h-20" />
           </div>
           <p className="text-lg mb-4">
             Chương trình Offline Hội Hoang được thực hiện bởi những fan đã gắn bó với Cá Hồi Hoang,

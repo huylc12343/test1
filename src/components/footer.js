@@ -1,12 +1,12 @@
 import React from 'react'
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Cas from './cas'; // Import the cas component
+import CasIcon from '../assets/Cas.svg'; // Import the CAS icon
 export default function Footer() {
   return (
     <div className="bg-gray-800 text-white py-6">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-4 gap-2">
-            <div><Cas/></div>
+            <div><img src={CasIcon} alt="cas" className="w-20 h-20" /></div>
             <div className="grid col-span-1 text-left">
                 <h1 className="text-2xl font-extrabold ">Điều hướng</h1>
                 <ul className="space-y-2">

@@ -1,12 +1,12 @@
 import React from 'react';
 import Cas from './cas'; // Import the cas component
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import CasIcon from '../assets/Cas.svg'; // Import the CAS icon
 const Navbar = () => {
   return (
     <nav className="bg-gray-800 shadow-md px-6 py-4 flex items-center justify-between">
     {/* Logo */}
-        <Cas />
+        <img src={CasIcon} alt="cas" className="w-20 h-20" />
     {/* Menu + Giỏ hàng */}
     <ul className="flex gap-8 text-gray-700 font-medium items-center ">
         <li className="hover:text-blue-500 cursor-pointer text-[#cccccc]">Trang chủ</li>
