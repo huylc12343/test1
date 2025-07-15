@@ -1,5 +1,4 @@
 import React from 'react';
-import Cas from './cas'; // Import the cas component
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import CasIcon from '../assets/Cas.svg'; // Import the CAS icon
 const Navbar = () => {
